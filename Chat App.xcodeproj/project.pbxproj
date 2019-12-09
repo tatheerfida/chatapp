@@ -12,6 +12,7 @@
 		FE51A41123981AC5008A01BA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE51A40F23981AC5008A01BA /* Main.storyboard */; };
 		FE51A41323981AC7008A01BA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FE51A41223981AC7008A01BA /* Assets.xcassets */; };
 		FE51A41623981AC7008A01BA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE51A41423981AC7008A01BA /* LaunchScreen.storyboard */; };
+		FE5F7755239E5466006F07C7 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE5F7754239E5466006F07C7 /* TableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		FE51A41223981AC7008A01BA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FE51A41523981AC7008A01BA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FE51A41723981AC7008A01BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FE5F7754239E5466006F07C7 /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 			children = (
 				FE51A40B23981AC5008A01BA /* AppDelegate.swift */,
 				FE51A40D23981AC5008A01BA /* ViewController.swift */,
+				FE5F7754239E5466006F07C7 /* TableViewCell.swift */,
 				FE51A40F23981AC5008A01BA /* Main.storyboard */,
 				FE51A41223981AC7008A01BA /* Assets.xcassets */,
 				FE51A41423981AC7008A01BA /* LaunchScreen.storyboard */,
@@ -135,6 +138,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FE5F7755239E5466006F07C7 /* TableViewCell.swift in Sources */,
 				FE51A40E23981AC5008A01BA /* ViewController.swift in Sources */,
 				FE51A40C23981AC5008A01BA /* AppDelegate.swift in Sources */,
 			);
